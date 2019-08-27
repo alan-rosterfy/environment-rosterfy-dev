@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQeqxY6Kna1BDPVIwwsV8cGDANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ3NDA0MzBlNC04N2NjLTQzYjUtOTRkMi1hNzQ4M2VlNGE2YmYw
+    HhcNMTkwODI3MDgwNTU1WhcNMjQwODI1MDkwNTU1WjAvMS0wKwYDVQQDEyQ3NDA0
+    MzBlNC04N2NjLTQzYjUtOTRkMi1hNzQ4M2VlNGE2YmYwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCT2vJw8X09C80PQgCmZUdt+Y8UIrjoof2398s0hhgR
+    PKD5PeOPkaG30jcnXy9ghBVQeu2dj9uBbmxtPy4GbD1RXmlCMPq829Jh8eaaU6+K
+    tipSgk8OKr95RVl5mHFp5cfEq0YsHcxZg/7tRvQf7CHUOPkvIfn66tN/AfucCXlp
+    2GMTAWhDdclaIPxWiFjyzH/wli5uQQoU/j3oFlaSaxBD3Cnp/cvvn9kTu7R6xlHm
+    QV2I9ZrEXzjmJT77znZwMlSOSJPdQHoQzXKdp66PqUgIXj5+Qa8RqfmXueqr7pUy
+    vJbvGh+pK7M7m9Ab1tA34/u2MzWeGIOC/7eryM8Gomu7AgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAB
+    5uiEkIFWZ4HflkQg75kmSmByDQjBUXmfkVEO+c2GtVwygef9BowKJTxu1IEmE5le
+    yyKk9czJa2/Rmb0sdcz1fyj58Aqza3UeMtzTq4uXUuCyuu+lo0hKQoaNex8lWRIt
+    t/WBXM2E7Ed/RzPGAhXfVSiLoq3rDqNRdpyZaOblE7ba7ezqtO4hsrQYqGg9JkSM
+    u5Io2OCA9jnHgJL9VjU+Rt1ia8Qoaq/2Fo77p5PUbkQH2SalTTv73fX8891wZ1Hi
+    SarwXsJNltnhRhoIqtmmCKc+dQftKeJoKrRHLF+3sfdYLYCbxFsha+4BqHrv4nL8
+    MchSEy5j3MYfK9/PRpUI
+    -----END CERTIFICATE-----
+  clusterName: rosterfy
+  jx-install-version: 2.0.630
+  kubeProvider: gke
+  projectID: rosterfy-249301
+  region: ""
+  secretsLocation: vault
+  server: https://35.197.173.215
+  systemVaultName: jx-vault-rosterfy
+  zone: australia-southeast1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
